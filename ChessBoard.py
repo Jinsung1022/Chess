@@ -1,6 +1,5 @@
-from Pawn import Pawn
-from Knight import Knight
-from Piece import Piece
+from tkinter import *
+import tkinter as tk
 
 
 class ChessBoard:
@@ -16,3 +15,4 @@ class ChessBoard:
 
     def get_board(self):
         return self.board
+
